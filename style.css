@@ -1,0 +1,496 @@
+
+body{
+                 margin:0px 6%;
+    
+}
+.section1{
+                background-image: url("https://images.pexels.com/photos/3758865/pexels-photo-3758865.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+                background-repeat: no-repeat;
+                width: 100%;
+                 background-size: cover;
+                 height: 100%;
+                background-size: cover;
+                padding-bottom: 200px;
+              
+ 
+}
+.big-title{
+   
+                font-weight: bold;
+                font-size: 45px;
+                padding-top: 205px;
+                padding-left: 811px;
+   
+}
+
+.paragraphe{
+                text-align: justify;
+}
+
+nav{
+                float: right;
+                padding-top: 8px;
+                font-size: 18px;
+                margin-right: 20px;
+                margin-left: 30px;
+                position: fixed;
+                background-color: #f2f3f4;
+                border-radius: 10px;
+                padding-right: 20px;            
+}
+.bar-tittre{
+                width: 367px;
+                border: solid 2px;
+                margin-top: 2px;
+                margin-left: 783px;   }         
+
+nav a{
+               color: #C0392B ;
+               font-weight: bold;
+               text-decoration: none;
+               margin-left: 40px;
+           
+   
+}
+nav a:hover{
+              background-color: black;
+              color: white;
+                      
+              transform: translateX(-3px);
+}
+
+.section2{
+              display: flex;
+              background-color: #F4F6F6 ;
+              justify-content: space-around;
+}
+.card h3{
+    text-align: justify;
+}
+.plus{
+    font-size: 300px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.a-propos{
+              width: 493px;
+              line-height: 33px;
+              
+}.tittle-a-propos{
+    text-transform: uppercase;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding-top: 55px;
+}
+.image-personel{
+             border-radius: 243px;
+             height: 372px;
+}
+
+.container{
+    display: flex;
+ 
+    justify-content: space-between;
+}
+.container .box{
+ 
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow:  0 5px 15px rgba(0, 0, 0,.1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .box .icon{
+   
+    width: 80px;
+    height: 80px;
+    margin-left: 78px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+    border-radius: 50px;
+}
+
+
+
+.container .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #e91e63;
+ 
+}
+.container .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #23e629;
+    background: #23e629;
+}
+.container .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px #23e629;
+ 
+}
+.container .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.container .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #2196f3;
+ 
+}
+.container .box .content{
+    
+   
+    transition: 0.5s;
+
+}
+.container .box:hover .content{
+    color: #fff;
+}
+/* hr {
+            width: 517px;
+            margin-right: 650px;
+            border: solid 1px;
+            color: rgba(255,82,82,1.0000000000);
+
+} */
+.ligne  {    width: 517px;
+            margin-right: 650px;
+            border: solid 1px;
+            color: rgba(255,82,82,1.0000000000);}
+
+
+.citations{  background-color: #F4F6F6 ;
+             padding-left: 61px;
+             margin-top: 0px;}
+
+.tittle-citations{
+             text-transform: uppercase;
+             font-weight: bold;
+             font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+.citations ul li{list-style-type: none;
+                 line-height: 50px;
+}
+.list-citation{
+                display: flex; 
+                justify-content: space-around;
+}
+.informations-personnel{
+                display: flex;
+                 justify-content: space-around;}
+.pays{
+                margin-bottom: 34px;
+                width: 496px;
+                height: 201px;
+                border-radius: 20px;
+}
+.formations{
+                      display: flex;
+                      margin-left: 115px;
+     
+    
+                      
+}
+.image-contact{
+    position: absolute;   
+    bottom:-100px;
+}
+
+.form-contact{
+    width: 500px;
+}
+
+.items:nth-child(odd){
+             margin-top:50px ;
+}
+.items1:nth-child(odd){
+    margin-top:50px ;
+}
+
+.items{
+             font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+             padding: 10px;
+             text-align: center;
+             color: black;
+             line-height: 26px;
+             width: 202px;;margin:15px;
+             background-color:  #7fb3d5;
+             border-radius: 20px;
+
+}
+.items:hover{transform: translateY(-3px);
+    
+
+}
+.items1 h3{text-decoration: underline;}
+.date{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.paragraphe-experience{
+    line-height: 26px;
+}
+.experience{
+              display: flex;
+              flex-wrap: wrap;
+              width: 500px;
+}
+.items1{
+               font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+               padding: 10px;
+               text-align: center;
+               color: black;
+                  width: 219px;
+                  margin:15px;
+                  background-color:  #82e0aa ;
+                  border-radius: 20px;
+}
+.diplome-formation{
+                text-align: center;
+                color:  #c0392b ;
+                font-weight: bold;
+}
+.items1:hover{
+                  box-shadow: 0px 20px 15px #aaaaaa;
+                  font-size: 20px;
+}
+.my-experience{    display: flex;
+                   justify-content: space-around;}
+.tittre-experience{
+                    margin-top: 38px;
+                    margin-top: 38px;
+                    margin-left: -106px;
+                    color: #c0392b;
+                    font-weight: bold;
+}
+.image-experience{
+    
+                    border-radius: 42px;
+                     width: 393px;
+                    height: 393px;
+        
+    
+}
+.tittle-image{
+                      width: 200px;
+}
+.Compétences-Informatique {
+    color: #c0392b;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+progress{
+    font-size:10px;
+    background-color:white;
+    border-radius: 10px;
+width: 200px;}
+.compétences{
+  
+    display: flex;
+
+    margin-left: 102px;
+}
+
+.card-smart{
+    margin-top: 31px;
+}
+.image-comptétence{
+    width: 200px;
+}
+.compétences img{
+    
+    width: 804px;
+height: 363px;
+}
+.projet{
+          color: #c0392b;
+          margin-left: 93px;
+          font-size: 39px;
+          margin-bottom: 42px;
+          font-weight: bold;
+}
+.Portfolio{
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+}
+.card{
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 30%;
+}
+.image-portfolio{
+        width: 365px;
+        height: 238;
+        border-radius: 20px ;
+}
+.containerr{
+        text-align: center;
+        line-height: 23px;
+        margin: 5px 21px;
+}
+.cv{
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 30px ;
+    border: solid 2px #00aeff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #00aeff;
+    text-decoration: none;
+}
+.cv span{
+position: relative;
+
+}
+
+.contact-me{
+  
+   background: url("https://images.pexels.com/photos/2879814/pexels-photo-2879814.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   background-size: cover; 
+   padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.tittre-progess{
+    font-size: 21px;
+    margin-top: 14px;
+}
+.arrow{
+    font-size: 67px;
+    padding-left: 206px;
+    margin-top: 196px;
+    ;}
+.contact-me .content-contact{
+  
+    text-align: center;
+
+}
+.contact-me .content-contact h2{
+
+    font-size: 36px;
+font-weight: bold;
+color: #d82065;
+}
+.contact-me .content-contact p{
+    font-weight: 300;
+    color: #fff;
+    font-size: 20px;
+}
+.container-contact{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-contact .contactInfo{
+    margin-right: 186px;
+    display: flex;
+    flex-direction: column;
+}
+.container-contact .contactInfo .box-contact{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+ .icon-contact{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+font-size: 22px;
+margin-right: 10px;
+}
+.box-contact .text{
+    font-weight: bold;
+}
+.box-contact .text h4{
+font-weight: 500;
+color:#922B21 }
+.box-contact .text h4:hover{
+  text-decoration: underline; 
+ 
+}
+
+.contactForm{
+    border-radius: 82px;
+    padding: 40%;
+    background: #fff;
+
+} 
+.contactForm{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    
+}
+.cv:hover{
+    color: #0056b3;
+text-decoration: underline;
+transform: translateY(-3px);
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+
+}
+.contactForm .inputBox input, .inputBox textarea{
+    
+
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize: none;
+
+} 
+.contactForm .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    pointer-events: none;
+    transition: 0,5s;
+    color:#666
+}
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox input:valid~span
+{
+    color:#e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
